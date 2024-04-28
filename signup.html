@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center> <h1>Sign-Up Page</h1></center>
+    <form id="main_form" method="get">
+     <div>
+        <p class="input-lable"> Full Name :<br></p>
+        <input class="input-item" type="text" name="full-name">
+     </div>
+     <div>
+        <p class="input-lable"> E-mail :<br></p>
+        <input class="input-item" type="email" name="e-mail">
+     </div>
+     <div>
+        <p class="input-lable"> Password :<br></p>
+        <input class="input-item" type="password" name="epassword">
+     </div>
+     <div>
+        <p class="input-lable"> Confirm Paasword :<br></p>
+        <input class="input-item" type="password" name="Confirm-Password">
+     </div>
+     <div>
+        <p class="input-lable"> Gender :<br></p>
+        <input type="radio" name="male" value="male">Male </input>
+        <input type="radio" name="female" value="female">Female </input>
+        <input type="radio" name="others" value="others">Others </input>
+     </div>
+     
+     <div>
+        <p class="input-lable"> Security Question :<br></p>
+        <select class="input-item" name="security-Question">
+            <option value="your-age">What is your age</option>
+            <option value="your-job">Your First Job Name</option>
+            <option value="your-naick-name">What is your  Nick Name</option>   
+            <option value="your-pet-name">What is your pet Name</option> 
+        </select>
+     </div>
+     <div> 
+        
+    <textarea class="input-item" name="answer" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input id="checks" type="checkbox"> I ACCECPT THE A;LL THE TERMS AND CONDITIONS </input>
+    </div>  
+     
+    <input type="submit" value="Register"> 
+    
+    </form>
+</body>
+</html>
